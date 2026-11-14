@@ -11,5 +11,4 @@ attributes in `index.html` (each slot is marked with a `<!-- SWAP: … -->` comm
 | Gallery 3       | `kitchen.webp`              | 4:3 or 1:1 |
 | Gallery 4       | `balcony-view.webp`         | 4:3 or 1:1 |
 | Gallery 5       | `chorio-streets.webp`       | 4:3 or 1:1 |
-| Host            | `flora.webp` (square)       | 1:1        |
 | Social preview  | `og-image.jpg` (1200×630)   | 1.91:1     |

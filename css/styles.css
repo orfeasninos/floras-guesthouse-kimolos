@@ -144,14 +144,6 @@ address { font-style: normal; }
 .section--sand { background: var(--bg-sand); }
 
 .section__head { max-width: 46rem; margin-bottom: var(--space-6); }
-.section__head--row {
-  max-width: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-4);
-  align-items: flex-end;
-  justify-content: space-between;
-}
 
 .section__title {
   font-family: var(--font-serif);
@@ -724,60 +716,20 @@ address { font-style: normal; }
 
 /* 11. Host ----------------------------------------------------------------- */
 .host-card {
-  display: grid;
-  grid-template-columns: 260px minmax(0, 1fr);
-  gap: var(--space-7);
-  align-items: center;
+  max-width: 820px;
+  margin-inline: auto;
   padding: clamp(var(--space-5), 4vw, var(--space-7));
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
+  text-align: center;
 }
-.host-card__media { position: relative; justify-self: center; width: 100%; max-width: 260px; }
-.host-card__avatar,
-.host-card__photo {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  object-fit: cover;
-}
-.host-card__avatar {
-  display: grid;
-  place-items: center;
-  background:
-    radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.25), transparent 55%),
-    linear-gradient(135deg, var(--color-primary), #2C6E91);
-  color: var(--text-inverse);
-  font-family: var(--font-serif);
-  font-size: clamp(3.5rem, 8vw, 5rem);
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.15);
-}
-.host-card__badge {
-  position: absolute;
-  left: 50%;
-  bottom: -6px;
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-1);
-  padding: 0.35rem 0.85rem;
-  transform: translateX(-50%);
-  background: var(--color-accent);
-  color: var(--text-inverse);
-  border: 3px solid var(--bg-surface);
-  border-radius: var(--radius-pill);
-  font-size: var(--fs-xs);
-  font-weight: 700;
-  white-space: nowrap;
-}
-.host-card__badge .icon { fill: currentColor; }
-.host-card__bio { margin: var(--space-4) 0 var(--space-5); max-width: 40rem; color: var(--text-muted); font-size: 1.0625rem; }
-.host-card__facts { display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-5); margin-bottom: var(--space-6); }
+.host-card__bio { margin: var(--space-4) auto var(--space-5); max-width: 40rem; color: var(--text-muted); font-size: 1.0625rem; }
+.host-card__facts { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-3) var(--space-5); margin-bottom: var(--space-6); }
 .host-fact { display: inline-flex; align-items: center; gap: var(--space-2); font-size: var(--fs-sm); font-weight: 600; }
 .host-fact .icon { color: var(--color-accent); }
-.host-card__actions { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.host-card__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-3); }
 
 /* 12. Footer --------------------------------------------------------------- */
 .site-footer {
@@ -815,6 +767,7 @@ address { font-style: normal; }
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   font-size: var(--fs-xs);
 }
+.site-footer__credit a { color: var(--text-inverse); font-weight: 600; }
 
 /* 13. Dialogs -------------------------------------------------------------- */
 dialog { padding: 0; border: 0; color: inherit; }
@@ -973,11 +926,6 @@ dialog[open]::backdrop { animation: fade-in 0.28s var(--ease); }
   .places { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .places__note { grid-column: 1 / -1; }
 
-  .host-card { grid-template-columns: minmax(0, 1fr); gap: var(--space-6); text-align: center; }
-  .host-card__media { max-width: 200px; }
-  .host-card__bio { margin-inline: auto; }
-  .host-card__facts,
-  .host-card__actions { justify-content: center; }
 }
 
 @media (max-width: 760px) {

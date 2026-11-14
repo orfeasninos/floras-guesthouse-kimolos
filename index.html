@@ -39,7 +39,7 @@
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "name": "Flora's Guest House",
-    "description": "A 48 m² first-floor Cycladic apartment with a private balcony in Chorio, Kimolos. Up to 3 guests, 1 bedroom, 2 beds, 1 bathroom.",
+    "description": "A 48 m² first-floor Cycladic apartment with a private balcony in Chorio, Kimolos. Up to 3 guests, 1 bedroom, 1 bed + 1 sofa bed, 1 bathroom.",
     "url": "https://floras-guesthouse-kimolos.pages.dev/",
     "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&q=80",
     "address": {
@@ -101,7 +101,6 @@
     <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
     <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
     <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
-    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1"/><rect x="13.5" y="3.5" width="7" height="7" rx="1"/><rect x="3.5" y="13.5" width="7" height="7" rx="1"/><rect x="13.5" y="13.5" width="7" height="7" rx="1"/></symbol>
     <symbol id="i-castle" viewBox="0 0 24 24"><path d="M4 21V8h3v2h2.5V8h5v2H17V8h3v13H4z"/><path d="M10 21v-4a2 2 0 0 1 4 0v4"/></symbol>
     <symbol id="i-wave" viewBox="0 0 24 24"><path d="M2 9c1.7 0 1.7-1.5 3.3-1.5S7 9 8.7 9s1.7-1.5 3.3-1.5S13.7 9 15.3 9s1.7-1.5 3.4-1.5S20.3 9 22 9M2 14c1.7 0 1.7-1.5 3.3-1.5S7 14 8.7 14s1.7-1.5 3.3-1.5 1.7 1.5 3.3 1.5 1.7-1.5 3.4-1.5S20.3 14 22 14M2 19c1.7 0 1.7-1.5 3.3-1.5S7 19 8.7 19s1.7-1.5 3.3-1.5 1.7 1.5 3.3 1.5 1.7-1.5 3.4-1.5S20.3 19 22 19"/></symbol>
     <symbol id="i-square" viewBox="0 0 24 24"><path d="M3 21h18M5 21V11l7-6 7 6v10"/><path d="M9.5 21v-5h5v5"/></symbol>
@@ -197,15 +196,9 @@
     <!-- ===================================================== GALLERY -->
     <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
       <div class="container">
-        <div class="section__head section__head--row">
-          <div>
-            <p class="eyebrow" data-i18n="gallery.eyebrow">Gallery</p>
-            <h2 class="section__title" id="gallery-title" data-i18n="gallery.title">Inside Flora's</h2>
-          </div>
-          <button class="btn btn--ghost gallery__all" type="button" data-gallery-open="0">
-            <svg class="icon" aria-hidden="true"><use href="#i-grid"/></svg>
-            <span data-i18n="gallery.all">View all 5 photos</span>
-          </button>
+        <div class="section__head">
+          <p class="eyebrow" data-i18n="gallery.eyebrow">Gallery</p>
+          <h2 class="section__title" id="gallery-title" data-i18n="gallery.title">Inside Flora's Guesthouse</h2>
         </div>
 
         <!--
@@ -285,7 +278,7 @@
           <ul class="pills" role="list">
             <li class="pill"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-users"/></svg><span data-i18n="pill.guests">3 Guests</span></li>
             <li class="pill"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-door"/></svg><span data-i18n="pill.bedroom">1 Bedroom</span></li>
-            <li class="pill"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-bed"/></svg><span data-i18n="pill.beds">2 Beds</span></li>
+            <li class="pill"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-bed"/></svg><span data-i18n="pill.beds">1 Bed + Sofa Bed</span></li>
             <li class="pill"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-shower"/></svg><span data-i18n="pill.bath">1 Bathroom</span></li>
             <li class="pill"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-ruler"/></svg><span>48 m²</span></li>
             <li class="pill"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-stairs"/></svg><span data-i18n="pill.floor">1st floor</span></li>
@@ -293,7 +286,7 @@
 
           <div class="prose">
             <p data-i18n="house.p1">Flora's Guest House is a bright 48 m² apartment on the first floor of a traditional house in Chorio, the whitewashed capital of Kimolos. Thick Cycladic walls keep it cool through the summer heat, and the private balcony opens onto quiet lanes where life still moves at island pace.</p>
-            <p data-i18n="house.p2">Inside there is a bedroom with two beds for up to three guests, a full kitchen for slow breakfasts with local produce, a bathroom with shower, two air-conditioning units and fast Wi-Fi. Everything else — the tavernas, the cafés, the village square — is a short stroll away.</p>
+            <p data-i18n="house.p2">Inside there is a bedroom, an extra sofa bed so up to three guests can stay, a full kitchen for slow breakfasts with local produce, a bathroom with shower, two air-conditioning units and fast Wi-Fi. Everything else — the tavernas, the cafés, the village square — is a short stroll away.</p>
           </div>
 
           <h3 class="subheading" data-i18n="highlights.title">Why guests love it</h3>
@@ -316,7 +309,7 @@
             <li class="highlight-card">
               <span class="highlight-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg></span>
               <h4 class="highlight-card__title" data-i18n="hl.4.title">Warm Local Hospitality</h4>
-              <p class="highlight-card__text" data-i18n="hl.4.text">An attentive host who helps with ferry and port transfers and shares her best island tips.</p>
+              <p class="highlight-card__text" data-i18n="hl.4.text">An attentive host who shares her best island tips and makes you feel at home.</p>
             </li>
           </ul>
         </div>
@@ -495,24 +488,13 @@
     <section class="section host" id="host" aria-labelledby="host-title">
       <div class="container">
         <article class="host-card">
-          <div class="host-card__media">
-            <!-- SWAP: replace the initials with Flora's photo, e.g.
-                 <img class="host-card__photo" src="assets/images/flora.webp" alt="Flora Ninou" width="320" height="320" loading="lazy"> -->
-            <div class="host-card__avatar" aria-hidden="true">FN</div>
-            <span class="host-card__badge">
-              <svg class="icon icon--sm" aria-hidden="true"><use href="#i-star"/></svg>
-              <span data-i18n="host.badge">Top 10%</span>
-            </span>
-          </div>
           <div class="host-card__body">
             <p class="eyebrow" data-i18n="host.eyebrow">Your Host</p>
             <h2 class="section__title" id="host-title" data-i18n="host.title">Meet Flora Ninou</h2>
-            <p class="host-card__bio" data-i18n="host.bio">Flora has been welcoming guests to Chorio for more than seven years. Expect a warm welcome, honest tips on the quietest beaches and the best tavernas, and help arranging your transfer to and from Psathi port — so your Kimolos holiday starts the moment you step off the ferry.</p>
+            <p class="host-card__bio" data-i18n="host.bio">Flora has been welcoming guests to Chorio for more than seven years. Expect a warm welcome and honest tips on the quietest beaches and the best tavernas.</p>
             <ul class="host-card__facts" role="list">
               <li class="host-fact"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span data-i18n="host.f1">7+ years hosting</span></li>
-              <li class="host-fact"><svg class="icon" aria-hidden="true"><use href="#i-star"/></svg><span data-i18n="host.f2">Top 10% of homes</span></li>
-              <li class="host-fact"><svg class="icon" aria-hidden="true"><use href="#i-ferry"/></svg><span data-i18n="host.f3">Port transfer assistance</span></li>
-            </ul>
+              <li class="host-fact"><svg class="icon" aria-hidden="true"><use href="#i-star"/></svg><span data-i18n="host.f2">Top 10% of homes</span></li>            </ul>
             <div class="host-card__actions">
               <a class="btn btn--primary" href="#booking" data-contact-host>
                 <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
@@ -560,7 +542,7 @@
     </div>
     <div class="container site-footer__bottom">
       <p>© <span id="year">2026</span> Flora's Guest House · <span data-i18n="footer.rights">All rights reserved.</span></p>
-      <a class="site-footer__top" href="#top" data-i18n="footer.top">Back to top ↑</a>
+      <p class="site-footer__credit"><span data-i18n="footer.credit">Design &amp; development by</span> <a href="https://aegeanwebservices.com" target="_blank" rel="noopener">Aegean Web Services</a></p>
     </div>
   </footer>
 

@@ -71,8 +71,7 @@
       'guests.3': '3 guests',
 
       'gallery.eyebrow': 'Gallery',
-      'gallery.title': "Inside Flora's",
-      'gallery.all': 'View all 5 photos',
+      'gallery.title': "Inside Flora's Guesthouse",
       'cap.living': 'Living room',
       'cap.bedroom': 'Bedroom',
       'cap.kitchen': 'Fully equipped kitchen',
@@ -82,10 +81,10 @@
       'house.eyebrow': 'The House',
       'house.title': 'Authentic island living, one floor above the lanes of Chorio',
       'house.p1': "Flora's Guest House is a bright 48 m² apartment on the first floor of a traditional house in Chorio, the whitewashed capital of Kimolos. Thick Cycladic walls keep it cool through the summer heat, and the private balcony opens onto quiet lanes where life still moves at island pace.",
-      'house.p2': 'Inside there is a bedroom with two beds for up to three guests, a full kitchen for slow breakfasts with local produce, a bathroom with shower, two air-conditioning units and fast Wi-Fi. Everything else — the tavernas, the cafés, the village square — is a short stroll away.',
+      'house.p2': 'Inside there is a bedroom, an extra sofa bed so up to three guests can stay, a full kitchen for slow breakfasts with local produce, a bathroom with shower, two air-conditioning units and fast Wi-Fi. Everything else — the tavernas, the cafés, the village square — is a short stroll away.',
       'pill.guests': '3 Guests',
       'pill.bedroom': '1 Bedroom',
-      'pill.beds': '2 Beds',
+      'pill.beds': '1 Bed + Sofa Bed',
       'pill.bath': '1 Bathroom',
       'pill.floor': '1st floor',
       'highlights.title': 'Why guests love it',
@@ -96,7 +95,7 @@
       'hl.3.title': 'Private Balcony with Village Views',
       'hl.3.text': 'Ideal for morning coffee or evening drinks overlooking traditional Cycladic alleys.',
       'hl.4.title': 'Warm Local Hospitality',
-      'hl.4.text': 'An attentive host who helps with ferry and port transfers and shares her best island tips.',
+      'hl.4.text': 'An attentive host who shares her best island tips and makes you feel at home.',
 
       'book.title': 'Book your stay',
       'book.badge': 'Zero platform fees',
@@ -161,13 +160,11 @@
       'poi.prassa': 'Prassa Beach',
       'poi.prassa.d': '~6 km · 12 min drive',
 
-      'host.badge': 'Top 10%',
       'host.eyebrow': 'Your Host',
       'host.title': 'Meet Flora Ninou',
-      'host.bio': 'Flora has been welcoming guests to Chorio for more than seven years. Expect a warm welcome, honest tips on the quietest beaches and the best tavernas, and help arranging your transfer to and from Psathi port — so your Kimolos holiday starts the moment you step off the ferry.',
+      'host.bio': 'Flora has been welcoming guests to Chorio for more than seven years. Expect a warm welcome and honest tips on the quietest beaches and the best tavernas.',
       'host.f1': '7+ years hosting',
       'host.f2': 'Top 10% of homes',
-      'host.f3': 'Port transfer assistance',
       'host.message': 'Message Flora',
       'host.airbnb': 'Contact via Airbnb',
 
@@ -180,7 +177,7 @@
       'footer.reg': 'Registration',
       'footer.ama': 'AMA',
       'footer.rights': 'All rights reserved.',
-      'footer.top': 'Back to top ↑',
+      'footer.credit': 'Design & development by',
 
       'lb.label': 'Photo gallery',
       'lb.close': 'Close',
@@ -219,8 +216,7 @@
       'guests.3': '3 επισκέπτες',
 
       'gallery.eyebrow': 'Φωτογραφίες',
-      'gallery.title': 'Μέσα στο σπίτι της Φλώρας',
-      'gallery.all': 'Όλες οι φωτογραφίες (5)',
+      'gallery.title': 'Το σπίτι της Φλώρας',
       'cap.living': 'Σαλόνι',
       'cap.bedroom': 'Υπνοδωμάτιο',
       'cap.kitchen': 'Πλήρως εξοπλισμένη κουζίνα',
@@ -230,10 +226,10 @@
       'house.eyebrow': 'Το Σπίτι',
       'house.title': 'Αυθεντική νησιώτικη ζωή, έναν όροφο πάνω από τα σοκάκια του Χωριού',
       'house.p1': 'Το Flora\'s Guest House είναι ένα φωτεινό διαμέρισμα 48 m² στον πρώτο όροφο ενός παραδοσιακού σπιτιού στο Χωριό, την ασβεστωμένη πρωτεύουσα της Κιμώλου. Οι χοντροί κυκλαδίτικοι τοίχοι το κρατούν δροσερό το καλοκαίρι, και το ιδιωτικό μπαλκόνι ανοίγει σε ήσυχα σοκάκια όπου η ζωή κυλά ακόμα με νησιώτικο ρυθμό.',
-      'house.p2': 'Μέσα θα βρείτε υπνοδωμάτιο με δύο κρεβάτια για έως τρία άτομα, πλήρη κουζίνα για χαλαρά πρωινά με τοπικά προϊόντα, μπάνιο με ντουζιέρα, δύο κλιματιστικά και γρήγορο Wi-Fi. Όλα τα υπόλοιπα — οι ταβέρνες, τα καφέ, η πλατεία του χωριού — είναι λίγα βήματα μακριά.',
+      'house.p2': 'Μέσα θα βρείτε υπνοδωμάτιο, επιπλέον καναπέ-κρεβάτι ώστε να φιλοξενούνται έως τρία άτομα, πλήρη κουζίνα για χαλαρά πρωινά με τοπικά προϊόντα, μπάνιο με ντουζιέρα, δύο κλιματιστικά και γρήγορο Wi-Fi. Όλα τα υπόλοιπα — οι ταβέρνες, τα καφέ, η πλατεία του χωριού — είναι λίγα βήματα μακριά.',
       'pill.guests': '3 Επισκέπτες',
       'pill.bedroom': '1 Υπνοδωμάτιο',
-      'pill.beds': '2 Κρεβάτια',
+      'pill.beds': '1 Κρεβάτι + Καναπές-κρεβάτι',
       'pill.bath': '1 Μπάνιο',
       'pill.floor': '1ος όροφος',
       'highlights.title': 'Γιατί το αγαπούν οι επισκέπτες',
@@ -244,7 +240,7 @@
       'hl.3.title': 'Ιδιωτικό μπαλκόνι με θέα στο χωριό',
       'hl.3.text': 'Ιδανικό για πρωινό καφέ ή βραδινό ποτό με θέα στα παραδοσιακά κυκλαδίτικα σοκάκια.',
       'hl.4.title': 'Ζεστή τοπική φιλοξενία',
-      'hl.4.text': 'Μια πρόθυμη οικοδέσποινα που βοηθά με τη μεταφορά από και προς το λιμάνι και μοιράζεται τις καλύτερες συμβουλές για το νησί.',
+      'hl.4.text': 'Μια πρόθυμη οικοδέσποινα που μοιράζεται τις καλύτερες συμβουλές για το νησί και σας κάνει να νιώθετε σαν στο σπίτι σας.',
 
       'book.title': 'Κλείστε τη διαμονή σας',
       'book.badge': 'Χωρίς χρεώσεις πλατφόρμας',
@@ -309,13 +305,11 @@
       'poi.prassa': 'Παραλία Πράσσα',
       'poi.prassa.d': '~6 χλμ. · 12΄ με αυτοκίνητο',
 
-      'host.badge': 'Κορυφαίο 10%',
       'host.eyebrow': 'Η οικοδέσποινά σας',
       'host.title': 'Γνωρίστε τη Φλώρα Νίνου',
-      'host.bio': 'Η Φλώρα καλωσορίζει επισκέπτες στο Χωριό εδώ και πάνω από επτά χρόνια. Θα σας υποδεχτεί θερμά, θα σας προτείνει τις πιο ήσυχες παραλίες και τις καλύτερες ταβέρνες, και θα σας βοηθήσει με τη μεταφορά από και προς το λιμάνι της Ψάθης — ώστε οι διακοπές σας στην Κίμωλο να ξεκινούν μόλις κατεβείτε από το πλοίο.',
+      'host.bio': 'Η Φλώρα καλωσορίζει επισκέπτες στο Χωριό εδώ και πάνω από επτά χρόνια. Θα σας υποδεχτεί θερμά και θα σας προτείνει τις πιο ήσυχες παραλίες και τις καλύτερες ταβέρνες.',
       'host.f1': '7+ χρόνια φιλοξενίας',
       'host.f2': 'Στο κορυφαίο 10% των καταλυμάτων',
-      'host.f3': 'Βοήθεια με τη μεταφορά από το λιμάνι',
       'host.message': 'Μήνυμα στη Φλώρα',
       'host.airbnb': 'Επικοινωνία μέσω Airbnb',
 
@@ -328,7 +322,7 @@
       'footer.reg': 'Αριθμός Μητρώου',
       'footer.ama': 'ΑΜΑ',
       'footer.rights': 'Με επιφύλαξη παντός δικαιώματος.',
-      'footer.top': 'Επιστροφή επάνω ↑',
+      'footer.credit': 'Σχεδιασμός & υλοποίηση από',
 
       'lb.label': 'Συλλογή φωτογραφιών',
       'lb.close': 'Κλείσιμο',
@@ -493,7 +487,6 @@
     }
 
     triggers.forEach((btn) => btn.addEventListener('click', () => open(Number(btn.dataset.galleryIndex), btn)));
-    $$('[data-gallery-open]').forEach((btn) => btn.addEventListener('click', () => open(Number(btn.dataset.galleryOpen), btn)));
 
     $('[data-lb-prev]', dialog).addEventListener('click', () => go(-1));
     $('[data-lb-next]', dialog).addEventListener('click', () => go(1));
