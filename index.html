@@ -15,8 +15,7 @@
   <meta property="og:title" content="Flora's Guest House · Chorio, Kimolos">
   <meta property="og:description" content="A 48 m² first-floor Cycladic home with a private balcony in the heart of Chorio, Kimolos. Top 10% rated. Book direct.">
   <meta property="og:url" content="https://floras-guesthouse-kimolos.pages.dev/">
-  <!-- SWAP: point og:image at an absolute URL of your own hero photo (1200×630 recommended) -->
-  <meta property="og:image" content="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&h=630&fit=crop&q=80">
+  <!-- SWAP: add <meta property="og:image" content="https://…/assets/images/og-image.jpg"> (1200×630) once you have photos; also add "image" to the Schema.org block below -->
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="el_GR">
   <meta name="twitter:card" content="summary_large_image">
@@ -24,7 +23,6 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
 
   <!-- Leaflet (map) -->
@@ -41,7 +39,6 @@
     "name": "Flora's Guest House",
     "description": "A 48 m² first-floor Cycladic apartment with a private balcony in Chorio, Kimolos. Up to 3 guests, 1 bedroom, 1 bed + 1 sofa bed, 1 bathroom.",
     "url": "https://floras-guesthouse-kimolos.pages.dev/",
-    "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&q=80",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Chorio",
@@ -149,11 +146,7 @@
         <!-- SWAP: replace with your own hero photo, e.g.
              <img class="hero__img" src="assets/images/hero.webp" alt="…" width="1920" height="1280" fetchpriority="high"> -->
         <img class="hero__img"
-             src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1920&q=75&auto=format&fit=crop"
-             srcset="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800&q=70&auto=format&fit=crop 800w,
-                     https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1280&q=72&auto=format&fit=crop 1280w,
-                     https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1920&q=75&auto=format&fit=crop 1920w"
-             sizes="100vw" width="1920" height="1280" fetchpriority="high"
+             src="assets/images/placeholder-hero.svg" width="1920" height="1280" fetchpriority="high"
              alt="Whitewashed Cycladic houses on a hillside above the Aegean"
              data-i18n-attr="alt:hero.alt">
       </div>
@@ -210,55 +203,55 @@
         <ul class="gallery__grid" role="list">
           <li class="gallery__item gallery__item--feature">
             <button class="gallery__btn" type="button" data-gallery-index="0"
-                    data-full="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1800&q=80&auto=format&fit=crop"
+                    data-full="assets/images/placeholder.svg"
                     data-caption-key="cap.living">
               <!-- SWAP: assets/images/living-room.webp -->
               <img class="gallery__img" loading="lazy" decoding="async" width="1200" height="900"
-                   src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&q=72&auto=format&fit=crop"
+                   src="assets/images/placeholder.svg"
                    alt="Bright living room with sofa and dining table" data-i18n-attr="alt:cap.living">
               <span class="gallery__caption" data-i18n="cap.living">Living room</span>
             </button>
           </li>
           <li class="gallery__item">
             <button class="gallery__btn" type="button" data-gallery-index="1"
-                    data-full="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1800&q=80&auto=format&fit=crop"
+                    data-full="assets/images/placeholder.svg"
                     data-caption-key="cap.bedroom">
               <!-- SWAP: assets/images/bedroom.webp -->
               <img class="gallery__img" loading="lazy" decoding="async" width="800" height="600"
-                   src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=70&auto=format&fit=crop"
+                   src="assets/images/placeholder.svg"
                    alt="Bedroom" data-i18n-attr="alt:cap.bedroom">
               <span class="gallery__caption" data-i18n="cap.bedroom">Bedroom</span>
             </button>
           </li>
           <li class="gallery__item">
             <button class="gallery__btn" type="button" data-gallery-index="2"
-                    data-full="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=1800&q=80&auto=format&fit=crop"
+                    data-full="assets/images/placeholder.svg"
                     data-caption-key="cap.kitchen">
               <!-- SWAP: assets/images/kitchen.webp -->
               <img class="gallery__img" loading="lazy" decoding="async" width="800" height="600"
-                   src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=70&auto=format&fit=crop"
+                   src="assets/images/placeholder.svg"
                    alt="Fully equipped kitchen" data-i18n-attr="alt:cap.kitchen">
               <span class="gallery__caption" data-i18n="cap.kitchen">Fully equipped kitchen</span>
             </button>
           </li>
           <li class="gallery__item">
             <button class="gallery__btn" type="button" data-gallery-index="3"
-                    data-full="https://images.unsplash.com/photo-1533105079780-92b9be482077?w=1800&q=80&auto=format&fit=crop"
+                    data-full="assets/images/placeholder.svg"
                     data-caption-key="cap.balcony">
               <!-- SWAP: assets/images/balcony-view.webp -->
               <img class="gallery__img" loading="lazy" decoding="async" width="800" height="600"
-                   src="https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=70&auto=format&fit=crop"
+                   src="assets/images/placeholder.svg"
                    alt="Balcony view over Chorio" data-i18n-attr="alt:cap.balcony">
               <span class="gallery__caption" data-i18n="cap.balcony">Balcony view over Chorio</span>
             </button>
           </li>
           <li class="gallery__item">
             <button class="gallery__btn" type="button" data-gallery-index="4"
-                    data-full="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1800&q=80&auto=format&fit=crop"
+                    data-full="assets/images/placeholder.svg"
                     data-caption-key="cap.streets">
               <!-- SWAP: assets/images/chorio-streets.webp -->
               <img class="gallery__img" loading="lazy" decoding="async" width="800" height="600"
-                   src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=800&q=70&auto=format&fit=crop"
+                   src="assets/images/placeholder.svg"
                    alt="The alleys of Chorio" data-i18n-attr="alt:cap.streets">
               <span class="gallery__caption" data-i18n="cap.streets">The alleys of Chorio</span>
             </button>
